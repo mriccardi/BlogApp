@@ -1,7 +1,7 @@
 Blog::Application.routes.draw do
   get "welcome/index"
   root "welcome#index"
-  resources :posts
+  resources :posts # posts route
 
 
   # Example of regular route:
