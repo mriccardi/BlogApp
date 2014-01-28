@@ -1,8 +1,7 @@
 Blog::Application.routes.draw do
   get "welcome/index"
   root "welcome#index"
-  resources :posts # posts route
-
+  resources :posts
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
